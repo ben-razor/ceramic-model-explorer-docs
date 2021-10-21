@@ -39,10 +39,18 @@ If you think improvements could be made to a model, links are provided to make s
 
 The User Models page is used to add your own unofficial models.
 
+You must have a model in the [npm package repository](https://www.npmjs.com/) and a Github repository with the source files.
+
+Simply enter the details in the form and other developers will be able to use your model in their Ceramic applications.
+
 ![User Models](3-user-models.png)
 
 ## Applications
 
 The Applications page is used to submit applications that use existing DataModels.
+
+Fill in the form with the details of your application. This will help other developers find packages that have been useful in a number of applications.
+
+Others will also be able to find your application when browsing the DataModels.
 
 ![Applications](4-applications.png)
