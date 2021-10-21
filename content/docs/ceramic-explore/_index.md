@@ -24,7 +24,7 @@ Click the Star to help others find useful DataModels.
 
 You must be **Connected** to **Ceramic Network** to rate models and add data to **Ceramic Explore**. You need a signer like [MetaMask](https://metamask.io/) to set this up.
 
-![Search page](1-search-page-1.png)
+![Search page](1-search-page-3.png)
 
 ## Data Models
 
@@ -34,7 +34,7 @@ The Data Models page displays detailed information about the model including it'
 
 If you think improvements could be made to a model, links are provided to make suggestions to the owner of the project.
 
-![Data Models](2-data-models-1.png)
+![Data Models](2-data-models-3.png)
 ## User Models
 
 The User Models page is used to add your own unofficial models.
