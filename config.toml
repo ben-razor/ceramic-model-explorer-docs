@@ -1,0 +1,7 @@
+baseURL = 'https://azulejo-docs.web.app'
+languageCode = 'en-us'
+title = 'Azulejo'
+
+[params]
+    BookTheme = 'light'
+    BookLogo = 'favicon-32x32.png'

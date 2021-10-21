@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Using Azulejo #  Azulejo is composed of three parts:
+ The search page for searching for schemas from schema.org The schema editor for editing types and properties of a generated JSON Schema The model export tool for generating files for use in Ceramic Data Models  Search Page #  Use the search page to search for schema objects in the Schema.org data set.
+Enter text in the search bar and the schema names and descriptions will be searched.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Using Azulejo" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://azulejo-docs.web.app/docs/azulejo/" />
+
+<title>Using Azulejo | Azulejo</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.e714296d5f1744a217b68e2cf3e54c3c2410438e0098dc246771109451d02b6c.js" integrity="sha256-5xQpbV8XRKIXto4s8&#43;VMPCQQQ44AmNwkZ3EQlFHQK2w=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="https://azulejo-docs.web.app/docs/azulejo/index.xml" title="Azulejo" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><img src="/favicon-32x32.png" alt="Logo" /><span>Azulejo</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://azulejo-docs.web.app/docs/azulejo/" class=" active">Using Azulejo</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Using Azulejo</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#search-page">Search Page</a></li>
+    <li><a href="#schema-editor">Schema Editor</a></li>
+    <li><a href="#model-export">Model Export</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="using-azulejo">
+  Using Azulejo
+  <a class="anchor" href="#using-azulejo">#</a>
+</h1>
+<p>Azulejo is composed of three parts:</p>
+<ol>
+<li>The <em>search page</em> for searching for schemas from schema.org</li>
+<li>The <em>schema editor</em> for editing types and properties of a generated JSON Schema</li>
+<li>The <em>model export tool</em> for generating files for use in Ceramic Data Models</li>
+</ol>
+<h2 id="search-page">
+  Search Page
+  <a class="anchor" href="#search-page">#</a>
+</h2>
+<p>Use the search page to search for schema objects in the Schema.org data set.</p>
+<p>Enter text in the search bar and the schema names and descriptions will be searched. Click the button
+containing the schema name to use that schema as a base for your Data Model.</p>
+<p><img src="1-search.png" alt="Search page" /></p>
+<h2 id="schema-editor">
+  Schema Editor
+  <a class="anchor" href="#schema-editor">#</a>
+</h2>
+<p>When a schema has been selected it is converted into a <a href="https://json-schema.org/">JSON Schema</a> as this is the
+format used by Ceramic Data Models.</p>
+<p>You can select and edit the fields you wish to add to your data model.</p>
+<ul>
+<li>Click on the main <strong>Name</strong> and <strong>Description</strong> to edit them for your particular model</li>
+<li>Check <strong>Property descriptions</strong> to add descriptions to the model</li>
+<li>Check one or more <strong>Sub Classes</strong> and their properties will be made available for selection</li>
+<li>Don&rsquo;t forget to click <strong>Update Schema</strong> to apply your property changes to the schema</li>
+<li>Click <strong>Create Data Model</strong> to begin the process of generating a Data Model from the schema</li>
+</ul>
+<p><img src="2-schema-edit.png" alt="Schema editor" /></p>
+<h2 id="model-export">
+  Model Export
+  <a class="anchor" href="#model-export">#</a>
+</h2>
+<p>A Ceramic Data Model is an npm package containing files generated from one or more JSON schemas.</p>
+<p>The instructions in the side panel explain the process of forking the existing Data Model repository and adding the contents of the files generated by Azulejo.</p>
+<p>There are extra things you can do at this point:</p>
+<ul>
+<li>Click on the <strong>SchemaName.json</strong> file to perform manual edits, or to add an externally created JSON schema</li>
+<li>In the <strong>package.json</strong> tab, add the author name, version and tags</li>
+</ul>
+<p>When you are happy with the model, click <strong>Update Model</strong>. This will generate a new model.ts that contains the exports that will be pulled into Ceramic applications based on your schema.</p>
+<p>Finally, follow the side panel instructions to add the content from the edited files for use in your pull request on the <a href="https://github.com/ceramicstudio/datamodels">Ceramic DataModels</a> repository.</p>
+<p><img src="3-model-export.png" alt="Model export" /></p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#search-page">Search Page</a></li>
+    <li><a href="#schema-editor">Schema Editor</a></li>
+    <li><a href="#model-export">Model Export</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
