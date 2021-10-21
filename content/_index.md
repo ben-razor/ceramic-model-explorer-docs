@@ -3,9 +3,9 @@ title: Introduction
 type: docs
 ---
 
-# Azulejo Guide
-## About Azulejo
-Azulejo is an application for creating Ceramic Network DataModels using data from schema.org to bootstrap the process.
+# Ceramic Explore Guide
+## About Ceramic Explore
+Ceramic Explore is an application for discovering and curating Ceramic Network DataModels.
 ## Ceramic Network
 Ceramic is a platform for storing and sharing streams of data.
 
